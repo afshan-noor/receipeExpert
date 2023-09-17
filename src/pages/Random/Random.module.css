@@ -1,0 +1,79 @@
+
+.page{
+    display: block;
+    width: 90vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: calc(100vh - (6rem + 4rem));
+}
+.recipehero {
+    display: grid;
+    gap: 3rem;
+  }
+  
+  .recipeheroimg {
+    width: 500px;
+    height: 350px;
+   
+    margin-left: 3rem;
+  }
+  .recipeinfo h2{
+ margin-left:35%;
+  }
+  .recipeinfo p {
+    color: var(--grey-600);
+    
+  }
+  .recipeicons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .recipeicons i {
+    font-size: 1.5rem;
+    color: var(--primary-500);
+  }
+  .recipeicons h5,
+  .recipeicons p {
+    margin-bottom: 0;
+    font-size: 0.85em;
+  }
+  
+  .recipeicons p {
+    color: red;
+  }
+  .recipetags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  .recipetags a {
+    background: var(--primary-500);
+    border-radius: var(--borderRadius);
+    color: var(--white);
+    padding: 0.05rem 0.5rem;
+    margin: 0 0.25rem;
+    text-transform: capitalize;
+  }
+  @media screen and (min-width: 786px) {
+    .recipehero {
+      grid-template-columns: 4fr 5fr;
+      align-items: center;
+    }
+  }
+  .recipecontent {
+    padding: 3rem 0;
+    display: grid;
+    gap: 2rem 5rem;
+  }
+  @media screen and (min-width: 992px) {
+    .recipecontent {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+  

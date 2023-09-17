@@ -1,0 +1,22 @@
+.banner{
+    padding:120px 100px;
+   background-image: url('https://media.istockphoto.com/id/925256408/photo/spaghetti-with-fresh-tomato-sauce-mozzarella-and-basil.jpg?s=612x612&w=0&k=20&c=AGOyQuTAweiylVAZY-95FuO8LR5_vTBPBl_kF_h_cXg=');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.banner div{
+    text-align: center;
+}
+.banner div h1{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+.red{
+    color: red;
+}

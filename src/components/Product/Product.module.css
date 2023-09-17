@@ -1,0 +1,102 @@
+
+.product{
+    padding: 50px 100px;
+    }
+    .sectionheading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    }
+    .sectionheading h1{
+        font-size: 35px;
+        margin: 0;
+    }
+    .productmain{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 16px;
+    
+    }
+    .productInner{
+        padding: 20px;
+    }
+    .found {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: red;
+        height: 17rem;
+      
+        animation: pulse 1s ease-in-out forwards;
+      }
+      @keyframes pulse{
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+    .loading{
+        height: 17rem;
+        color:red;
+        font-size: 2rem;
+    }
+     
+      
+    .searchbar{
+        margin: 1rem 0;
+        background-color: aliceblue;
+        border-bottom: 1px solid #f33f3f;
+        color: #f33f3f;
+        width: 400px;
+        height: 40px;
+        border: none;
+        outline: none;
+        border-radius: 1rem;
+        padding: 0.3rem 1rem;
+    }
+
+    .indexContainer{
+        display: flex;
+        margin:2.5rem 20.5rem;
+    }
+    .numBox{
+        width: 87px;
+        height: 40px;
+        background-color: #030e12;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 0 5px 0 5px;
+        cursor: pointer;
+    }
+    .favourite{
+        color: red;
+       
+    }
+    .favourite h1{
+        margin-right: 35px;
+    }
+    @media only screen and (max-width: 768px) {
+           .product{
+            margin-top: -5rem;
+            padding: 20px 50px;
+            }   
+            .indexContainer{
+                display: flex;
+                margin:2.5rem 12rem;
+            } 
+            .productmain{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 3rem;
+        
+        }
+    }
+        
