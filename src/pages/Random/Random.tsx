@@ -1,6 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import styles from "./Random.module.css"
 
+
+
+
+
+
+
+
+
+
 const RandomRecipe:React.FC = () => {
   const [randomRecipe, setRandomRecipe] = useState(null);
 
