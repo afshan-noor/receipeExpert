@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 import classes from './Favourite.module.css'
 
-const FavouriteFoods = () => {
+const FavouriteFoods:React.FC = () => {
   const URL = 'https://www.themealdb.com/api/json/v1/1/filter.php?i=rice'
   const [recipes, setRecipes] = useState([])
   const [showRecipe, setShowRecipe] = useState(0)
